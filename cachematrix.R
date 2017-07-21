@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The primary goal of those functions is to save time, The first function returns a list which contains functions that get, set a matrix
+## and also get, set the inverse of that matrix. The other function return the inverse if it's previously calculated and calculate it if not
 
-## Write a short comment describing this function
+## returns a list functions that set and get the value of a matrix and its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## get the inverse of a matrix if it's previously created and calculate it if not 
 
 cacheSolve <- function(x, ...) {
         inv <- x$getinv()
